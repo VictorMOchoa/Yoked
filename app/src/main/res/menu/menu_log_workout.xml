@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="kerplunk.victor.yoked.Activities.LogWorkoutActivity">
+    <item android:id="@+id/PercentCalculator"
+        android:title="Percentage Calculator"
+        android:orderInCategory="100"
+        app:showAsAction="never"/>
+    <item android:id="@+id/WeightCalculator"
+        android:title="Weight Calculator"
+        android:orderInCategory="100"
+        app:showAsAction="never"/>
+
+
+</menu>

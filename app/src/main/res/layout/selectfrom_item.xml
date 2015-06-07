@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/programs_vertical_margin"
+        android:layout_marginBottom="@dimen/programs_vertical_margin"
+        android:layout_marginLeft="@dimen/programs_horizontal_margin"
+        android:layout_marginRight="@dimen/programs_horizontal_margin"
+        android:background="#ffffff">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/icon_iv"
+            android:src="@drawable/dumbbell"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="2dp"
+            android:focusableInTouchMode="false" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="1000 Rep Arms"
+            android:id="@+id/workoutLabel"
+            android:textColor="#000000"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/icon_iv" />
+
+    </RelativeLayout>
+</LinearLayout>

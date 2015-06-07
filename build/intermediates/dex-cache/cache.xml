@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Victor\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-android\1.2.0\6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd\bolts-android-1.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd">
+        <dex dex="C:\Users\Victor\Documents\GitHub\MyProgramTracker\app\build\intermediates\pre-dexed\debug\bolts-android-1.2.0-ba8a67f9c5c51a5c982a3a1210212c896fa2f126.jar" />
+    </item>
+    <item
+        jar="C:\Users\Victor\Documents\GitHub\MyProgramTracker\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.1\jars\libs\internal_impl-22.1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
+        <dex dex="C:\Users\Victor\Documents\GitHub\MyProgramTracker\app\build\intermediates\pre-dexed\debug\internal_impl-22.1.1-c3683be5c0e483cb943d272c3ae6fd11315a8c53.jar" />
+    </item>
+    <item
+        jar="C:\Users\Victor\Documents\GitHub\MyProgramTracker\app\libs\Parse-1.9.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="fe739334780fe321141e62720822c2d456061899">
+        <dex dex="C:\Users\Victor\Documents\GitHub\MyProgramTracker\app\build\intermediates\pre-dexed\debug\Parse-1.9.2-4d9a008d1f7c19f6b08060d244aab0fe26166ce1.jar" />
+    </item>
+    <item
+        jar="C:\Users\Victor\Documents\GitHub\MyProgramTracker\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
+        <dex dex="C:\Users\Victor\Documents\GitHub\MyProgramTracker\app\build\intermediates\pre-dexed\debug\classes-b60036b0a054a114588e0f4f1acde3620b81d995.jar" />
+    </item>
+    <item
+        jar="C:\Users\Victor\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife\6.1.0\63735f48b82bcd24cdd33821342428252eb1ca5a\butterknife-6.1.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="63735f48b82bcd24cdd33821342428252eb1ca5a">
+        <dex dex="C:\Users\Victor\Documents\GitHub\MyProgramTracker\app\build\intermediates\pre-dexed\debug\butterknife-6.1.0-7ea421a1efe8eccfc2179e1507ef49edb82c82fc.jar" />
+    </item>
+    <item
+        jar="C:\Users\Victor\Documents\GitHub\MyProgramTracker\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a3ff3c506644c820eb2bdf06e8339f72be578551">
+        <dex dex="C:\Users\Victor\Documents\GitHub\MyProgramTracker\app\build\intermediates\pre-dexed\debug\classes-b996d6a2c46bfc2a323a6e0267c68503135925d2.jar" />
+    </item>
+    <item
+        jar="C:\Users\Victor\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.1.1\support-annotations-22.1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="01d051a6bfb1218b1db2d3a5af0480ac2c25c42a">
+        <dex dex="C:\Users\Victor\Documents\GitHub\MyProgramTracker\app\build\intermediates\pre-dexed\debug\support-annotations-22.1.1-9fcf88f536805983c047cac85b5479c6d03f9cf2.jar" />
+    </item>
+
+</items>

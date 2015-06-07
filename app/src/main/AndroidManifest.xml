@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="kerplunk.victor.yoked" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name="kerplunk.victor.yoked.Activities.MyProgramTrackerApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.Example" >
+        <activity
+            android:name="kerplunk.victor.yoked.Activities.HomeActivity"
+            android:label="@string/title_activity_home"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="kerplunk.victor.yoked.Activities.LogInActivity"
+            android:label="Yoked"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="kerplunk.victor.yoked.Activities.SignUpActivity"
+            android:label="@string/title_activity_sign_up"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="kerplunk.victor.yoked.Activities.ViewWorkoutActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_view_workout" >
+        </activity>
+        <activity
+            android:name="kerplunk.victor.yoked.Activities.SelectProgramActivity"
+            android:label="@string/title_activity_select_existing"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="kerplunk.victor.yoked.Activities.LogWorkoutActivity"
+            android:label="@string/title_activity_log_workout"
+            android:screenOrientation="portrait"
+
+            android:parentActivityName="kerplunk.victor.yoked.Activities.SelectProgramActivity">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+    </application>
+
+</manifest>
